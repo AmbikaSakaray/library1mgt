@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blossom Book House | Library Management System</title>
+  <title>About & Contact | Blossom Book House</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -17,211 +17,102 @@
         <span>Blossom Book House</span>
       </a>
       <div class="nav-links">
-        <a class="active" href="index.html">Home</a>
+        <a href="index.html">Home</a>
         <a href="books.html">Books</a>
-        <a href="about-contact.html">About & Contact</a>
+        <a class="active" href="about-contact.html">About & Contact</a>
       </div>
       <a class="nav-cta" href="books.html">Open Catalog</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero home-hero">
-      <div class="hero-copy">
-        <p class="eyebrow">A smarter way to run a library</p>
-        <h1>Where every book, reader, and idea blooms.</h1>
+    <section class="page-hero about-hero">
+      <p class="eyebrow">About Blossom Book House</p>
+      <h1>A warm, intelligent library built for learning communities.</h1>
+      <p>
+        Blossom Book House combines the charm of a reading space with the clarity
+        of a modern management system for books, members, events, requests, and support.
+      </p>
+    </section>
+
+    <section class="section about-story">
+      <article>
+        <p class="eyebrow">Our mission</p>
+        <h2>Make every reader feel guided, welcomed, and inspired.</h2>
         <p>
-          Blossom Book House is a complete library management experience for
-          discovering books, managing members, issuing records, tracking returns,
-          announcing events, and keeping the reading community beautifully connected.
+          The system is designed to reduce manual work for librarians while helping
+          readers find the right book, understand availability, and stay connected
+          with library services.
         </p>
-        <div class="hero-actions">
-          <a class="primary-button" href="books.html">Explore Books</a>
-          <a class="secondary-button" href="#system">View System</a>
+      </article>
+      <article class="story-card">
+        <h3>What we manage</h3>
+        <ul>
+          <li>Book catalog and shelf records</li>
+          <li>Member accounts and reading history</li>
+          <li>Issue, return, renewal, and overdue tracking</li>
+          <li>Events, requests, contact, and library announcements</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section values-grid">
+      <article>
+        <span>01</span>
+        <h3>Accessible</h3>
+        <p>Simple navigation and clear sections for students, staff, and librarians.</p>
+      </article>
+      <article>
+        <span>02</span>
+        <h3>Organized</h3>
+        <p>Structured records make catalog, issue, and member management easier.</p>
+      </article>
+      <article>
+        <span>03</span>
+        <h3>Beautiful</h3>
+        <p>A calm, premium design that makes library work feel modern and inspiring.</p>
+      </article>
+    </section>
+
+    <section class="section contact-layout">
+      <div class="contact-info">
+        <p class="eyebrow">Contact desk</p>
+        <h2>Reach Blossom Book House.</h2>
+        <p>
+          Contact the library team for membership help, book requests, overdue support,
+          event details, or catalog corrections.
+        </p>
+        <div class="contact-list">
+          <span>Email: blossomlibrary@example.com</span>
+          <span>Phone: +91 98765 43210</span>
+          <span>Address: Blossom Academic Campus, First Floor</span>
+          <span>Hours: Monday to Saturday, 8:30 AM - 6:00 PM</span>
         </div>
       </div>
 
-      <aside class="hero-console">
-        <div class="console-top">
-          <span>Today at Blossom</span>
-          <strong>Live Desk</strong>
-        </div>
-        <div class="console-search">Search catalog, members, authors...</div>
-        <div class="console-grid">
-          <article>
-            <span>Books</span>
-            <strong>24,860</strong>
-          </article>
-          <article>
-            <span>Members</span>
-            <strong>7,420</strong>
-          </article>
-          <article>
-            <span>Issued</span>
-            <strong>486</strong>
-          </article>
-          <article>
-            <span>Returns Due</span>
-            <strong>72</strong>
-          </article>
-        </div>
-      </aside>
-    </section>
-
-    <section class="section quick-strip">
-      <a href="books.html">
-        <span>Catalog</span>
-        <strong>Search books, authors, categories, and shelf codes.</strong>
-      </a>
-      <a href="#members">
-        <span>Members</span>
-        <strong>Manage students, staff, fines, and reading history.</strong>
-      </a>
-      <a href="#events">
-        <span>Events</span>
-        <strong>Promote book clubs, workshops, and reading hours.</strong>
-      </a>
-      <a href="about-contact.html">
-        <span>Contact</span>
-        <strong>Request help, book suggestions, or membership support.</strong>
-      </a>
-    </section>
-
-    <section class="section" id="system">
-      <div class="section-heading">
-        <p class="eyebrow">Complete management system</p>
-        <h2>Everything the library needs, shown on the home page.</h2>
-      </div>
-      <div class="module-grid">
-        <article class="module-card">
-          <span>01</span>
-          <h3>Book Inventory</h3>
-          <p>Add books, classify genres, track copies, manage shelf locations, and check availability instantly.</p>
-        </article>
-        <article class="module-card">
-          <span>02</span>
-          <h3>Member Profiles</h3>
-          <p>Maintain student, teacher, and guest records with active issues, due dates, and reading history.</p>
-        </article>
-        <article class="module-card">
-          <span>03</span>
-          <h3>Issue & Return Desk</h3>
-          <p>Record borrowed books, return dates, overdue alerts, renewals, and fine status in a clear workflow.</p>
-        </article>
-        <article class="module-card">
-          <span>04</span>
-          <h3>Reports & Insights</h3>
-          <p>View popular books, daily circulation, overdue records, category demand, and member activity.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section showcase">
-      <div class="showcase-copy">
-        <p class="eyebrow">Featured collection</p>
-        <h2>Fresh arrivals and reader favorites.</h2>
-        <p>
-          A polished catalog display helps students and librarians see what is
-          available, what is issued, and what deserves attention today.
-        </p>
-        <a class="text-link" href="books.html">Visit the full books page</a>
-      </div>
-      <div class="mini-catalog">
-        <article>
-          <span class="tag green">Available</span>
-          <h3>The Midnight Library</h3>
-          <p>Fiction shelf F-18</p>
-        </article>
-        <article>
-          <span class="tag blue">New Arrival</span>
-          <h3>Designing Data-Intensive Applications</h3>
-          <p>Technology shelf T-05</p>
-        </article>
-        <article>
-          <span class="tag amber">Due Soon</span>
-          <h3>Atomic Habits</h3>
-          <p>Self growth shelf S-11</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section library-spaces" id="events">
-      <div class="section-heading">
-        <p class="eyebrow">Beyond book storage</p>
-        <h2>A library that feels alive.</h2>
-      </div>
-      <div class="space-grid">
-        <article class="space-card reading">
-          <h3>Quiet Reading Lounge</h3>
-          <p>Calm study zones for deep reading, research, and exam preparation.</p>
-        </article>
-        <article class="space-card digital">
-          <h3>Digital Learning Hub</h3>
-          <p>Computer access, e-resources, digital journals, and research support.</p>
-        </article>
-        <article class="space-card community">
-          <h3>Community Programs</h3>
-          <p>Book launches, storytelling sessions, workshops, and reading clubs.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section dashboard-preview" id="members">
-      <div>
-        <p class="eyebrow">Member dashboard</p>
-        <h2>Clear records for every reader.</h2>
-        <p>
-          Librarians can quickly understand who borrowed what, which books are due,
-          and which members need reminders.
-        </p>
-      </div>
-      <div class="table-card">
-        <table>
-          <thead>
-            <tr>
-              <th>Member</th>
-              <th>Book</th>
-              <th>Due</th>
-              <th>Status</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Ananya Rao</td>
-              <td>Ikigai</td>
-              <td>22 May</td>
-              <td><span class="status green">On Time</span></td>
-            </tr>
-            <tr>
-              <td>Rohan Mehta</td>
-              <td>Clean Code</td>
-              <td>20 May</td>
-              <td><span class="status amber">Due Soon</span></td>
-            </tr>
-            <tr>
-              <td>Priya Sharma</td>
-              <td>Operating Systems</td>
-              <td>17 May</td>
-              <td><span class="status rose">Overdue</span></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <section class="section final-cta">
-      <p class="eyebrow">Blossom Book House</p>
-      <h2>Built for students, librarians, and a campus that loves reading.</h2>
-      <div class="hero-actions center-actions">
-        <a class="primary-button" href="books.html">Go to Books</a>
-        <a class="secondary-button" href="about-contact.html">About & Contact</a>
-      </div>
+      <form class="action-form">
+        <p class="eyebrow">Send request</p>
+        <h2>Contact Form</h2>
+        <label>
+          Full Name
+          <input type="text" placeholder="Enter your name">
+        </label>
+        <label>
+          Email
+          <input type="email" placeholder="Enter your email">
+        </label>
+        <label>
+          Message
+          <textarea placeholder="Write your message"></textarea>
+        </label>
+        <button type="submit">Send Message</button>
+      </form>
     </section>
   </main>
 
   <footer class="footer">
     <p>Blossom Book House Library Management System</p>
-    <a href="about-contact.html">Contact the library</a>
+    <a href="index.html">Back to home</a>
   </footer>
 </body>
 </html>
